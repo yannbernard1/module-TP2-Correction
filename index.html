@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Savoirs inutiles</title>
+    <script src="https://kit.fontawesome.com/7d15da244a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="columns">
+    <div class="column">
+        <input type="text" name="savoir" id="savoir" class="input is-primary is-small">
+    </div>
+</div>
+<div class="columns">
+    <div class="column">
+        <input type="text" name="savoir" id="auteur" class="input is-primary is-small">
+    </div>
+</div>
+<div class="columns">
+    <div class="column">
+        <input type="date" name="savoir" id="date" class="input is-primary is-small">
+    </div>
+</div>
+<div class="columns">
+    <div class="column">
+        <button onclick="ajouter()">Ajouter</button>
+    </div>
+</div>
+<ol id="liste">
+</ol>
+<script src="script.js"></script>
+</body>
+</html>
